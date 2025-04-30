@@ -1,0 +1,87 @@
+[
+  {
+    "id": 1,
+    "kitty_name": "Mochi",
+    "age": 2,
+    "gender": "Male",
+    "breed": "Scottish Fold",
+    "personality": ["Gentle", "Playful"],
+    "housing_type": "Apartment",
+    "location": "Los Angeles",
+    "description": "Mochi is a cuddly little boy who loves sunbathing by the window and snuggling with humans.",
+    "preferences": {
+      "needs_window_spot": true,
+      "acceptable_roommates": ["Rabbit", "Small dog"],
+      "needs_outdoor_space": false
+    },
+    "posted_at": "2025-04-28T08:00:00Z"
+  },
+  {
+    "id": 2,
+    "kitty_name": "Luna",
+    "age": 4,
+    "gender": "Female",
+    "breed": "Russian Blue",
+    "personality": ["Quiet", "Independent"],
+    "housing_type": "Condo",
+    "location": "San Francisco",
+    "description": "Luna is elegant and serene. She enjoys calm environments and classical music.",
+    "preferences": {
+      "needs_window_spot": false,
+      "acceptable_roommates": ["None"],
+      "needs_outdoor_space": false
+    },
+    "posted_at": "2025-04-26T14:30:00Z"
+  },
+  {
+    "id": 3,
+    "kitty_name": "Taro",
+    "age": 1,
+    "gender": "Male",
+    "breed": "Maine Coon",
+    "personality": ["Energetic", "Talkative"],
+    "housing_type": "House",
+    "location": "Seattle",
+    "description": "Taro is a fluffy extrovert who enjoys racing across the hallway and chatting at 3am.",
+    "preferences": {
+      "needs_window_spot": true,
+      "acceptable_roommates": ["Dog", "Other cats"],
+      "needs_outdoor_space": true
+    },
+    "posted_at": "2025-04-29T09:00:00Z"
+  },
+  {
+    "id": 4,
+    "kitty_name": "Sakura",
+    "age": 3,
+    "gender": "Female",
+    "breed": "Calico",
+    "personality": ["Sweet", "Shy"],
+    "housing_type": "Shared Apartment",
+    "location": "Portland",
+    "description": "Sakura prefers quiet corners and loves curling up with a soft blanket during rainy days.",
+    "preferences": {
+      "needs_window_spot": true,
+      "acceptable_roommates": ["Hamster", "Small dog"],
+      "needs_outdoor_space": false
+    },
+    "posted_at": "2025-04-27T10:15:00Z"
+  },
+  {
+    "id": 5,
+    "kitty_name": "Yuzu",
+    "age": 5,
+    "gender": "Female",
+    "breed": "Persian",
+    "personality": ["Chill", "Regal"],
+    "housing_type": "Penthouse",
+    "location": "New York",
+    "description": "Yuzu believes in luxury. She naps on silk and expects nothing less than premium salmon.",
+    "preferences": {
+      "needs_window_spot": false,
+      "acceptable_roommates": ["Bird", "Fish"],
+      "needs_outdoor_space": false
+    },
+    "posted_at": "2025-04-25T16:45:00Z"
+  }
+]

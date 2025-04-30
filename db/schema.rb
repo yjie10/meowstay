@@ -10,9 +10,24 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema[7.1].define(version: 2025_04_15_221235) do
+ActiveRecord::Schema[7.1].define(version: 2025_04_29_233657) do
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
+
+  create_table "listings", force: :cascade do |t|
+    t.string "kitty_name"
+    t.integer "age"
+    t.string "gender"
+    t.string "breed"
+    t.string "personality", array: true
+    t.string "housing_type"
+    t.string "location"
+    t.text "description"
+    t.jsonb "preferences"
+    t.datetime "posted_at"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+  end
 
   create_table "properties", force: :cascade do |t|
     t.string "property_id"
