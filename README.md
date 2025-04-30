@@ -4,7 +4,15 @@ Originally a take-home assignment built to parse XML property listings, this pro
 
 This version keeps the technical backbone of the original project, but with a refreshed theme, data model, and UI.
 
+<p align="center"><i>A preview of the app: </i></p>
+
+![meowstay screenshot](public/screenshots/meowstay_ss_1.png)
+
 ---
+
+## 🖥️ Demo
+
+Currently not deployed, but you can find screenshots in the `/public/screenshots` folder or view a sample above.
 
 ## 🛠️ Tech Stack
 
@@ -56,9 +64,9 @@ Each card includes a generated cat avatar (via RoboHash, using the set4 = cats v
 
 ## 📦 From XML to JSON
 
-The original version of this project used `Nokogiri` to parse an XML property feed and import relevant data. While that code is no longer active in the live app, it remains available under /services for reference.
+The original version of this project used `Nokogiri` to parse an XML property feed and import relevant data. While that code is no longer active in the live app, it remains available under `/services` for reference.
 
-This version replaces XML parsing with a handcrafted JSON mock file, located at lib/assets/data/meowstay_listings.json. A small JsonImporter service is used to read the file and create records on seeding.
+This version replaces XML parsing with a handcrafted JSON mock file, located at `lib/assets/data/meowstay_listings.json`. A small JsonImporter service is used to read the file and create records on seeding.
 
 ## 🌟 Bonus: Personal Takeaways
 
@@ -66,4 +74,4 @@ I used this project as a chance to brush up on Rails conventions and refresh my 
 
 It was fun reimagining a dry data feed into a kitty listing board with personality.
 
-P.S. If you're wondering: yes, I may have given each mock kitty their own backstory. No regrets.
+> P.S. If you're wondering: yes, I may have given each mock kitty their own backstory. No regrets.
